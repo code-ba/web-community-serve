@@ -1,18 +1,10 @@
-// https://babeljs.io/docs/en/usage
-// 安装依赖，设置默认配置
 {
   "presets": [
     [
-      // https://babeljs.io/docs/en/babel-preset-env
       "@babel/env",
-      // "@babel/presect-env",
       {
         "targets": {
           "node": "current"
-          // "edge": "17",
-          // "firefox": "60",
-          // "chrome": "67",
-          // "safari": "11.1"
         }
       }
     ]
